@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
-import django_heroku
+#import django_heroku
 #this is from clooudinary website
 import os
 import cloudinary
@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-p38*l!tf3hdmbu!podx-)4p^#&j)1e$!8fl^$*8r#)97^wb608
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS =  ['127.0.0.1', "twitter-clone-anugrah.herokuapp.com"]     ["*"]  #"twitter-clone-anugrah.herokuapp.com"]   '127.0.0.1'
+ALLOWED_HOSTS = ['127.0.0.1', "twitter-clone-anugrah.herokuapp.com"]    # ["*"] 
 
 
 # Application definition
@@ -155,5 +155,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
-django_heroku.settings(locals())
+#django_heroku.settings(locals())
 
