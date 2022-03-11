@@ -21,5 +21,5 @@ Tech used :
  [Live Heroku Deployment]     (https://twitter-clone-anugrah.herokuapp.com/)
  
  
- ![Screenshort] (![image] (static/img/Screenshot 2022-03-11 at 6.54.13 AM.png)
+ ![Screenshort] (![image] ()
  )
